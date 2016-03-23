@@ -9,7 +9,8 @@ RUN apk update && \
     build-base \
     git \
     mercurial \
-    go@community && \
+    go@community \
+    go-tools@community && \
   rm -rf \
     /var/cache/apk/*
 
