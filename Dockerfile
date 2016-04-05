@@ -9,7 +9,7 @@ RUN apk update && \
     build-base \
     git \
     mercurial \
-    bzr \
+    bzr@community \
     go@community \
     go-tools@community && \
   rm -rf \
