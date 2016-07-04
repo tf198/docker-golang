@@ -1,7 +1,12 @@
 FROM webhippie/alpine:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
-ENV GOPATH /app
+VOLUME ["/srv/app"]
+
+WORKDIR /srv/app
+CMD ["bash"]
+
+ENV GOPATH /srv/app
 ENV GO15VENDOREXPERIMENT 1
 
 RUN apk update && \
@@ -16,6 +21,3 @@ RUN apk update && \
     /var/cache/apk/*
 
 ADD rootfs /
-
-WORKDIR /app
-CMD ["bash"]
