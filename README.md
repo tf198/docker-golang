@@ -15,7 +15,7 @@ These are docker images for [Golang](https://golang.org/) running on an
 
 ## Volumes
 
-* None
+* /srv/app
 
 
 ## Ports
