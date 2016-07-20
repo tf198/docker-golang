@@ -8,6 +8,7 @@ CMD ["bash"]
 
 ENV GOPATH /srv/app
 ENV GO15VENDOREXPERIMENT 1
+ENV PATH /app/bin:${PATH}
 
 RUN apk update && \
   apk add \
