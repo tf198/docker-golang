@@ -9,9 +9,9 @@ CMD ["bash"]
 ENV GOPATH /srv/app
 ENV GO15VENDOREXPERIMENT 1
 
-ENV PATH ${GOPATH}/bin:/usr/local/go/bin:${PATH}
+ENV PATH /srv/app/bin:/usr/local/go/bin:${PATH}
 
-ENV GOLANG_VERSION 1.7rc2
+ENV GOLANG_VERSION 1.7
 ENV GOLANG_TARBALL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
 
 RUN apk update && \
