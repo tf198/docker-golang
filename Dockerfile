@@ -1,8 +1,6 @@
 FROM webhippie/alpine:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
-VOLUME ["/srv/app"]
-
 WORKDIR /srv/app
 CMD ["bash"]
 
