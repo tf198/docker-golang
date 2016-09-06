@@ -1,6 +1,6 @@
 # Golang
 
-[![](https://images.microbadger.com/badges/image/webhippie/golang.svg)](https://microbadger.com/images/webhippie/golang "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/webhippie/golang:1.6.svg)](https://microbadger.com/images/webhippie/golang:1.6 "Get your own image badge on microbadger.com")
 
 These are docker images for [Golang](https://golang.org/) running on an [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
 
