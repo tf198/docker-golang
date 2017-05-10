@@ -9,7 +9,7 @@ ENV GO15VENDOREXPERIMENT 1
 
 ENV PATH /srv/app/bin:/usr/local/go/bin:${PATH}
 
-ENV GOLANG_VERSION 1.8.1
+ENV GOLANG_VERSION 1.7.5
 ENV GOLANG_TARBALL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
 
 ADD rootfs /
