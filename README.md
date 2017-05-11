@@ -33,9 +33,7 @@ These are docker images for [Golang](https://golang.org/) running on an [Alpine 
 
 ## Inherited environment variables
 
-```bash
-ENV CRON_ENABLED false
-```
+* [webhippie/alpine](https://github.com/dockhippie/alpine#available-environment-variables)
 
 
 ## Contributing
