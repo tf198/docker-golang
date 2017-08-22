@@ -16,7 +16,8 @@ RUN apk update && \
     mercurial \
     bzr \
     go \
-    go-tools && \
+    go-tools \
+    openssh-client && \
   rm -rf \
     /var/cache/apk/*
 
