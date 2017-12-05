@@ -18,6 +18,7 @@ RUN apk update && \
   apk add \
     build-base \
     git \
+    git-lfs \
     mercurial \
     bzr \
     go && \
