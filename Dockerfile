@@ -22,6 +22,15 @@ RUN apk update && \
   rm -rf \
     /var/cache/apk/*
 
+# git annex support
+ENV GIT_ANNEX_VERSION git-annex-standalone-amd64
+ENV GIT_ANNEX_TARBALL https://downloads.kitenet.net/git-annex/linux/current/${GIT_ANNEX_VERSION}.tar.gz
+
+RUN curl -sLo - \
+    ${GIT_ANNEX_TARBALL} | tar -xzf - -C /usr/local && \
+  ln -s /usr/local/git-annex.linux/git-annex /usr/local/bin/git-annex && \
+ln -s /usr/local/git-annex.linux/git-annex-shell /usr/local/bin/git-annex-shell
+
 ADD rootfs /
 
 ARG VERSION
