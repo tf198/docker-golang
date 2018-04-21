@@ -11,6 +11,7 @@ These are docker images for [Golang](https://golang.org/) running on an [Alpine 
 * [1.7](https://github.com/dockhippie/golang/tree/1.7) available as ```webhippie/golang:1.7``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/golang/)
 * [1.6](https://github.com/dockhippie/golang/tree/1.6) available as ```webhippie/golang:1.6``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/golang/)
 * [edge](https://github.com/dockhippie/golang/tree/edge) available as ```webhippie/golang:edge``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/golang/)
+* [git-annex](https://github.com/tf198/docker-golang/tree/git-annex) available as ```tf198/golang:git-annex``` at [Docker Hub](https://registry.hub.docker.com/u/tf198/golang-git-annex/)
 
 
 ## Volumes
